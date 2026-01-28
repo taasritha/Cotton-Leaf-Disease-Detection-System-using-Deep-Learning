@@ -2,18 +2,14 @@
 
 This project focuses on **automatic classification of cotton leaf diseases** using a combination of **deep learning feature extraction** and **ensemble machine learning** techniques.
 
----
-
 ## Classes
 
-The model classifies cotton leaf images into four categories:
+The model classifies cotton leaf images into four categories, dataset taken from kaggle:
 
 - Curl Virus  
 - Fussarium Wilt  
 - Bacterial Blight  
 - Healthy  
-
----
 
 ## Approach
 
@@ -38,15 +34,11 @@ The model classifies cotton leaf images into four categories:
      - Support Vector Machine (RBF)
      - Random Forest
 
----
-
 ## Results
 
 - **Overall Accuracy:** 99.13%
 - High precision, recall, and F1-score across all classes
 - Very low false positive rates
-
----
 
 ## Evaluation
 
@@ -57,8 +49,6 @@ The following evaluation techniques are used:
 - ROC Curves and AUC
 - Per-class accuracy and specificity
 
----
-
 ## Technologies Used
 
 - Python  
@@ -68,7 +58,4 @@ The following evaluation techniques are used:
 - NumPy, Pandas  
 - Matplotlib, Seaborn  
 
----
-
-## Project Structure
 
